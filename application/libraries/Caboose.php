@@ -16,6 +16,12 @@ class Caboose {
     var $CI; // handle to CodeIgniter instance
     // define the components
     var $components = array(
+        'jrating' => array(
+            'css' => 'jRating.jquery.css',
+            'js' => 'jRating.jquery.js',
+            'template' => 'jrating'
+        ),
+
          'lightbox' => array(
             'css' => 'jquery.lightbox-0.5.css',
             'js' => 'jquery.lightbox-0.5.min.js',
